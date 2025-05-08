@@ -1,0 +1,32 @@
+{
+  "id": "e675e4a1-7a8e-4882-b013-d88b53c9ef79",
+  "name": "DevOpsTestTG",
+  "publisher": "Todor Gerganov",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Todor's DevOps test app",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
