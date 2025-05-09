@@ -31,7 +31,7 @@ steps:
     script: | 
       $credential = [PSCredential]::new("admin", (ConvertTo-SecureString -String "Admin@123" -AsPlainText -Force)) 
  
-      Compile-AppInBcContainer -appProjectFolder C:\ProgramData\BcContainerHelper\Extensions\$(containerName)\my\app -containerName $(containerName)  -AzureDevOps -EnablePerTenantExtensionCop -EnableCodeCop -EnableUICop -FailOn error -credential $credential
+      Compile-AppInBcContainer -appProjectFolder C:\ProgramData\BcContainerHelper\Extensions\$(containerName)\my\DevOpsTestTG -containerName $(containerName)  -AzureDevOps -EnablePerTenantExtensionCop -EnableCodeCop -EnableUICop -FailOn error -credential $credential
  
       $appFile = Get-ChildItem -Path C:\ProgramData\BcNavContainerHelper\Extensions\$(containerName)\my\app\output\*.app -Recurse -Force 
  
